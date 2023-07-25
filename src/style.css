@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blog-name {
+  @apply font-bold text-4xl mb-4
+}
+.blog-description {
+  @apply font-light text-slate-500
+}
+.card-wrapper {
+  @apply grid xl:grid-flow-row lg:grid-cols-3 gap-4 justify-end items-center
+}
+.card {
+  @apply grid gap-6 pt-16 xl:pb-24 lg:pb-16
+}
+
+.labels {
+  @apply flex gap-4 items-center text-xs
+}
+
+.date {
+  @apply text-zinc-500
+}
+
+.label {
+ @apply bg-zinc-100 text-zinc-800 rounded-xl px-3 py-1
+}
+
+.title {
+  @apply font-semibold text-lg
+}
+
+.description {
+  @apply font-light text-slate-800 text-sm line-clamp-3 text-ellipsis
+}
+
+.profile {
+  @apply flex gap-4 items-center text-sm py-4
+}
+
+.avatar {
+  @apply rounded-full w-10 h-10
+}
+
+.name {
+  @apply font-semibold
+}
+
+.job {
+  @apply font-light text-slate-500
+}
