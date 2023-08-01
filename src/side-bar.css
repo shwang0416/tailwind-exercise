@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menuContainer {
+    @apply p-6 w-56 bg-zinc-100 h-screen overflow-auto
+}
+
+.menuList {
+    @apply flex flex-col gap-y-3 mb-10 text-base text-zinc-900
+}
+
+.menuItem {
+    @apply hover:bg-indigo-400 hover:text-zinc-100 rounded-md px-4 py-2 flex flex-row gap-x-2 align-middle
+}
+.logo {
+    @apply mb-4 font-bold text-xl p-4 flex flex-row gap-x-2 align-middle 
+}
