@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th {
+    text-align: left;
+}
+td {
+    items-end: center;
+}
+
+thead tr th {
+    @apply font-semibold
+}
+tbody tr td {
+    @apply p-4
+}
+
+.package {
+    @apply flex flex-col align-baseline
+}
+
+.icons {
+    i {
+        @apply w-4
+    }
+}
+.tbody {
+
+
+}
