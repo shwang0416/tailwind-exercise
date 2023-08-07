@@ -31,108 +31,14 @@
                 </select>
             </div>
         </div>
-        <!-- table -->
-        <table class="w-full"/>
-            <thead class="bg-slate-100 h-16">
-                <tr>
-                    <th class="pl-4">Package</th>
-                    <th>Invoice Date</th>
-                    <th>Status</th>
-                    <th class="pr-4">Actions</th>
-                </tr>
-            </thead>
-            <!-- row -->
-            <tbody class="tbody divide-slate-200 divide-y-2">
-                <tr class="">
-                    <td class="package">
-                        <span class="">Free Package</span>
-                        <span class="font-normal text-slate-400">$0.00</span>
-                    </td>
-                    <td>Jan 13, 2023</td>
-                    <td class="">
-                        <div class="bg-green-100 rounded-2xl w-fit py-1 px-3">
-                            <span class="text-green-700">Paid</span>
-                        </div>
-                    </td>
-                    <td class="icons">
-                        <div class="flex items-center space-x-3.5 h-full">
-                            <i data-feather="eye" class="w-5 text-slate-500"></i>
-                            <i data-feather="trash-2" class="w-5 text-slate-500" ></i>
-                            <i data-feather="download" class="w-5 text-slate-500"></i>
-                        </div>
-
-                    </td>
-                </tr>
-                <tr class="">
-                    <td class="package">
-                        <span class="">Free Package</span>
-                        <span class="font-normal text-slate-400">$0.00</span>
-                    </td>
-                    <td>Jan 13, 2023</td>
-                    <td class="">
-                        <div class="bg-green-100 rounded-2xl w-fit py-1 px-3">
-                            <span class="text-green-700">Paid</span>
-                        </div>
-                    </td>
-                    <td class="icons">
-                        <div class="flex items-center space-x-3.5 h-full">
-                            <i data-feather="eye" class="w-5 text-slate-500"></i>
-                            <i data-feather="trash-2" class="w-5 text-slate-500" ></i>
-                            <i data-feather="download" class="w-5 text-slate-500"></i>
-                        </div>
-
-                    </td>
-                </tr><tr class="">
-                    <td class="package">
-                        <span class="">Free Package</span>
-                        <span class="font-normal text-slate-400">$0.00</span>
-                    </td>
-                    <td>Jan 13, 2023</td>
-                    <td class="">
-                        <div class="bg-red-100 rounded-2xl w-fit py-1 px-3">
-                            <span class="text-red-700">Unpaid</span>
-                        </div>
-                    </td>
-                    <td class="icons">
-                        <div class="flex items-center space-x-3.5 h-full">
-                            <i data-feather="eye" class="w-5 text-slate-500"></i>
-                            <i data-feather="trash-2" class="w-5 text-slate-500" ></i>
-                            <i data-feather="download" class="w-5 text-slate-500"></i>
-                        </div>
-
-                    </td>
-                </tr><tr class="">
-                    <td class="package">
-                        <span class="">Free Package</span>
-                        <span class="font-normal text-slate-400">$0.00</span>
-                    </td>
-                    <td>Jan 13, 2023</td>
-                    <td class="">
-                        <div class="bg-orange-50 rounded-2xl w-fit py-1 px-3">
-                            <span class="text-orange-400">Pending</span>
-                        </div>
-                    </td>
-                    <td class="icons">
-                        <div class="flex items-center space-x-3.5 h-full">
-                            <i data-feather="eye" class="w-5 text-slate-500"></i>
-                            <i data-feather="trash-2" class="w-5 text-slate-500" ></i>
-                            <i data-feather="download" class="w-5 text-slate-500"></i>
-                        </div>
-
-                    </td>
-                </tr>
-            </tbody>
-            <!-- column wrapper -->
-                <!-- column -->
-        </table>
+        <div id="table-container"></div>
 
     </div>
 </div>
 
 </div>
-<script>
-    feather.replace()
-</script>
+<script type="module" src="/src/Table.ts"></script>
+    
 </body>
 </html>
 <!-- </body> -->
