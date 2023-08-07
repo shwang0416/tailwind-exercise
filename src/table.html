@@ -14,13 +14,22 @@
 
     <!-- paper -->
     <div class="w-8/12 h-fit bg-white drop-shadow-lg p-10">
-        <!-- description -->
-        <div class="flex flex-col gap-3 pb-8">
-            <!-- title -->
-            <div class="text-4xl font-semibold">Package List</div>
+        <div class="flex justify-between items-end pb-8">
             <!-- description -->
-            <div class="text-xl font-normal6 text-slate-600">description</div>
-            <!-- filter -->
+            <div class="flex flex-col gap-3">
+                <!-- title -->
+                <div class="text-4xl font-semibold">Package List</div>
+                <!-- filter -->
+            </div>
+            <!-- dropdown -->
+            <div class="">
+                <label for="cars" class="font-normal text-lg">SHORT BY:</label>
+
+                <select name="cars" id="cars" class="text-slate-700 text-lg">
+                <option value="volvo">Current Week</option>
+                <option value="saab">Last Week</option>
+                </select>
+            </div>
         </div>
         <!-- table -->
         <table class="w-full"/>
